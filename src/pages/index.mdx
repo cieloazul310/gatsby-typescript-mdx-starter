@@ -1,0 +1,37 @@
+---
+title: Index Page
+---
+
+import MdxTemplate from '../templates/mdx-template';
+import Seo from '../components/Seo';
+
+Gatsby TypeScript MDX Example
+
+## Features
+
+- TypeScript
+- MDX v2
+- ESLint
+- prettier
+
+## Getting Started
+
+```sh
+git clone
+
+cd gatsby-typescript-starter
+
+yarn install
+```
+
+`inline-code` is here.
+
+<Link to="/page-2/">
+  Go to Page Two
+</Link>
+
+export default MdxTemplate;
+
+export const Head = () => {
+  return <Seo title="Index Page" />;
+}
