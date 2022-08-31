@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-typescript-starter",
+  "name": "gatsby-typescript-mdx-starter",
   "version": "1.0.0",
   "private": true,
-  "description": "gatsby-typescript-starter",
+  "description": "Gatsby TypeScript MDX starter with ESlint, Prettier, husky and lint-staged.",
   "author": "cieloazul310",
   "keywords": [
     "gatsby"

@@ -2,9 +2,10 @@ import type { GatsbyConfig } from 'gatsby';
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: 'Gatsby TypeScript Example',
-    siteUrl: `https://www.yourdomain.tld`,
+    title: 'Gatsby TypeScript MDX Project Example',
+    siteUrl: `https://gatsby-typescript-mdx-starter.netlify.app`,
   },
+
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
