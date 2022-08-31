@@ -5,7 +5,6 @@ const config: GatsbyConfig = {
     title: 'Gatsby TypeScript MDX Project Example',
     siteUrl: `https://gatsby-typescript-mdx-starter.netlify.app`,
   },
-
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
