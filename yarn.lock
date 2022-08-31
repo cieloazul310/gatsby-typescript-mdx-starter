@@ -8288,9 +8288,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-typescript-starter@workspace:.":
+"gatsby-typescript-mdx-starter@workspace:.":
   version: 0.0.0-use.local
-  resolution: "gatsby-typescript-starter@workspace:."
+  resolution: "gatsby-typescript-mdx-starter@workspace:."
   dependencies:
     "@mdx-js/react": latest
     "@types/node": latest
