@@ -3,7 +3,10 @@ import * as React from 'react';
 function Pre({
   children,
   className,
-}: any) {
+}: {
+  children?: React.ReactNode;
+  className?: string;
+}) {
   return (
     <pre
       className={className ?? undefined}
@@ -20,10 +23,19 @@ function Pre({
   );
 }
 
+Pre.defaultProps = {
+  children: undefined,
+  className: undefined,
+};
+
 function Code({
   children,
   className,
-}: any) {
+}: {
+  children?: React.ReactNode;
+  className?: string;
+}) {
+  if (!children) return null;
   return className ? (
     <code>{children}</code>
   ) : (
@@ -39,6 +51,11 @@ function Code({
     </code>
   );
 }
+
+Code.defaultProps = {
+  children: undefined,
+  className: undefined,
+};
 
 const mdxComponents = { pre: Pre, code: Code };
 
